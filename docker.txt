@@ -1,0 +1,37 @@
+docker commands 
+
+sudo systemctl start docker or sudo service docker start
+systemctl enable docker
+
+docker pull (image name) this will pull image from the docker hub
+docker run (image name)
+docker images ***shows all the images 
+docker ps -a (shows all the running containers)
+
+****when not to write sudo again and again then***
+sudo usermod -a -G docker "user"(eg. sudo usermod -a -G docker ubuntu)
+
+sudo service docker stop(this will stop all the containers)
+
+: docker version(more details about the docker) 
+: docker -v  or docker --version (details about docker)
+: docker info (details)
+: docker --help (helps with the commands) (**docker images --help**)
+: docker login
+————————————
+Images
+: docker images
+: docker pull
+: docker rmi
+————————————
+Containers
+: docker ps
+: docker run
+: docker start
+: docker stop
+————————————
+System
+: docker stats
+: docker system df
+: docker system prune
+
