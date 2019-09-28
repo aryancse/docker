@@ -33,6 +33,6 @@ Containers
 System
 : docker stats(tells about how much memory is taking by docker)
 : docker system df (tells about the disc space taken by docker)
-: docker system prune(used to remove all the stp containers as well as all dangling images (which are not running with the containers)
+: docker system prune(used to remove all the stp containers as well as all dangling images (which are not running with the containers.)
 
 
